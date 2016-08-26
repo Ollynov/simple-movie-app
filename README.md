@@ -1,3 +1,3 @@
 # simple-movie-app
 
-Node with Express, React
+Node with Express (w/ handlebars), React
