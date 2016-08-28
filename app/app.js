@@ -20,7 +20,8 @@ console.log('listening on port 3000')
 
 
 /*
-Our movie app will allow a user to enter homescreen and see title, picture of a random movie, the rating from 1-10, and two buttons under photo
+Our movie app will allow a user to enter homescreen and see title,
+picture of a random movie, the rating from 1-10, and two buttons under photo
 Im feeling lucky page will just reload the page
 Submit movie will take you to the submit.html
 
