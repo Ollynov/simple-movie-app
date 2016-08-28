@@ -1,5 +1,7 @@
 var express = require('express');
 var hbs = require('handlebars');
+var React = require('react');
+var ReactDOM = require('react-DOM');
 
 var app = express();
 
@@ -12,8 +14,17 @@ app.get('/submit', function(req, res) {
     res.sendfile('./views/submit.html');
 });
 
+// RENDER PLACEHOLDER IMAGE TO HOMEPAGE WITH REACT
+var MyComponent = React.createClass({
+  render: function() {
+    return <div>Hello World</div>;
+  }
+});
+
+ReactDOM.render(<MyComponent />, document.getElementById('app'))
 
 
+// SERVER
 app.listen(3000);
 console.log('listening on port 3000')
 
